@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/news"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="何年月地。有白凤飞来，与秋游戏。碎屑黄金馥馥，暗熏沉水。如来粟界开全未，直着得、许多清气。
+        饱谙风露，自应韵色，独高人世。更不羡、犀帷富贵。羡鹫峰前度，秀分云外。弹压西风，谁数锦英华丽。幽芳素抱岩栖志，笑当时、满门桃李。等闲乞取，长生妙诀，广寒宫里。"/>
+
+</LinearLayout>

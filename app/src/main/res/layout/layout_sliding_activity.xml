@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kayo.materialproject.view.portslidingmenu.PortSlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/port_sliding_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SlidingActivity">
+    <!--左侧菜单栏-->
+    <include
+        android:id="@+id/port_menu"
+        layout="@layout/layout_prot_menu" />
+    <!--主体内容-->
+    <include
+        android:id="@+id/right_content"
+        layout="@layout/layout_right_content" />
+
+</com.kayo.materialproject.view.portslidingmenu.PortSlidingMenu>
